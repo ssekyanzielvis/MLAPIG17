@@ -3,7 +3,7 @@ flask
 gunicorn
 
 # Machine Learning
-#tensorflow
+tensorflow
 
 scikit-learn
 
