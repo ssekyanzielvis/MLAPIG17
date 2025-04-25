@@ -1,35 +1,6 @@
-# Core requirements
-flask
-gunicorn
-
-# Machine Learning
-#tensorflow
-
-scikit-learn
-
-# Data processing
-numpy
-pandas
-scipy
-
-# ECG processing specific
-wfdb # For MIT-BIH dataset handling
-heartpy  # For heart rate variability analysis
-pyhrv # Additional HRV features
-
-# Visualization
-matplotlib
-seaborn
-plotly
-
-# API utilities
-flask-cors
-python-dotenv
-
-# File processing
-werkzeug
-python-multipart
-
-# Development (optional)
-pytest
-pylint
+flask==2.0.1
+tensorflow-cpu==2.6.0
+pandas==1.3.0
+numpy==1.21.0
+matplotlib==3.4.2
+gunicorn==20.1.0
